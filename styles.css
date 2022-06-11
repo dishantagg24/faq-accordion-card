@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    width: 60%;
+    height: 84.9vh;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.bg-pattern {
+    position: relative;
+    bottom: 305px;
+    right: 570px;
+}
+
+.woman {
+    position: relative;
+    bottom: 882px;
+    left: -72px;
+}
+
+.box {
+    position: absolute;
+    width: 11%;
+    left: 205px;
+    bottom: 223px;
+}
+
+.written {
+    position: absolute;
+    left: 725px;
+    word-wrap: break-word;
+    width: 23%;
+    font-size: 12px;
+}
+
+.line {
+    background-color: hsl(240, 5%, 91%);
+    margin: 15px auto;
+}
+
+h3 {
+    display: inline-block;
+}
+
+p {
+    line-height: 1.5;
+}
+
+h1 {
+    margin: 30px auto;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.arrow {
+    background-image: url("images/icon-arrow-down.svg");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    width: 4rem;
+    height: 2rem;
+}
+
+.arrow.rotate {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transform-origin: 12% 10%;
+}
+
+.active {
+    display: none;
+}
+
+.active.shown {
+    display: block;
+}
