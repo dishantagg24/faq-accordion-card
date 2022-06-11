@@ -90,3 +90,14 @@ h1 {
 .active.shown {
     display: block;
 }
+
+.attribution {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: #ff9271;
+}
